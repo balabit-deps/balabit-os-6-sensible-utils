@@ -1,3 +1,11 @@
+sensible-utils (0.0.9ubuntu0.16.04.1) xenial-security; urgency=medium
+
+  * SECURITY UPDATE: argument-injection attack via BROWSER env variable
+    - sensible-browser: stop supporting %s expansion in $BROWSER.
+    - CVE-2017-17512
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Wed, 21 Feb 2018 14:23:07 -0500
+
 sensible-utils (0.0.9) unstable; urgency=low
 
   * Fix bashism in select-editor
